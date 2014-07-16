@@ -3,7 +3,18 @@
 int main(void)
 {
 	Sales_item item1,item2;
-	if( std::cin >> item1)
-		while(std::cin >> item1)
-			item2 += item1;:
+	int amount;
+	
+	std::cin>> item1;
+	amount = 1;
+	while(std::cin >> item2)
+		if (item1.same_isbn(item2))
+			amount ++;
+		else {
+			std::cout << amount <<std::endl;
+			item1 = item2;
+			amount = 1;
+		}
+	std::count << amount <<std::endl;
+	return 0;
 }

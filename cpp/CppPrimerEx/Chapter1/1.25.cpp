@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Sales_item.h"
 int main()
+
 {
 	Sales_item total;
 
@@ -21,4 +22,5 @@ int main()
 		return -1;
 	}
 	return 0;
+	
 }

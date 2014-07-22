@@ -21,5 +21,6 @@ int main()
 		std::cerr << "No data?!" << std::endl;
 		return -1;
 	}
+	
 	return 0;
 }

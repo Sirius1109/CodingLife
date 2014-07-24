@@ -19,6 +19,7 @@ int main()
 		std::cout << total <<std::endl;
 	} else {
 		std::cerr << "No data?!" << std::endl;
+		
 		return -1;
 	}
 	

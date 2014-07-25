@@ -5,6 +5,7 @@ int main()
 {
 	Sales_item total;
 
+
 	if (std::cin >> total){
 		Sales_item trans;
 

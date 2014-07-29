@@ -1,6 +1,7 @@
 #include <iostream>
 int main(void)
 {
+	
 	std::cout<<"Enter two numbers!"<<std::endl;
 	int num1 , num2;
 	std::cin>>num1>>num2;

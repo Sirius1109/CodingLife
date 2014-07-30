@@ -1,3 +1,3 @@
 每天一练
 
-Cpp Primer Chapter1 finish.
+Cpp Primer Ex Chapter1 finish.
